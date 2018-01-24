@@ -23,17 +23,23 @@ def self.artists
   @@artists.uniq
 end
 
-def artist_count
+def self.artist_count
 #how many songs each artist created
+artist_count = {}
+
+
 end
 
 def self.genres
   @@genres.uniq
 end
 
-def genre_count
+def slef.genre_count
   #how many songs in each genre
   genre_count = {}
+  @@genre.each do |genre|
+  key = @@genre.uniq
+  value = genre.size
 end
 
 
