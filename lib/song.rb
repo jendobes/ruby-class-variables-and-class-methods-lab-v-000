@@ -33,8 +33,6 @@ artist_count
 end
 
 
-end
-
 def self.genres
   @@genres.uniq
 end
