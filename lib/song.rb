@@ -15,8 +15,8 @@ end
 @@genres = []
 @@artists = []
 
-def count
-  return @@count
+def self.count
+  @@count
 end
 
 def artists
