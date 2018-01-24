@@ -37,9 +37,8 @@ end
 def slef.genre_count
   #how many songs in each genre
   genre_count = {}
-  @@genre.each do |genre|
-  key = @@genre.uniq
-  value = genre.size
+  @@genre.uniq.each do |genre|
+  genre_count[genre] = genre.size
 end
 
 
