@@ -26,6 +26,11 @@ end
 def self.artist_count
 #how many songs each artist created
 artist_count = {}
+@@artists.each do |artist|
+artists_count[artist] = @@artists.count(artist)
+end
+genre_count
+end
 
 
 end
