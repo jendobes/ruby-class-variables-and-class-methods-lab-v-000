@@ -38,7 +38,7 @@ def self.genre_count
   #how many songs in each genre
   genre_count = {}
   @@genres.each do |genre|
-  genre_count[genre] = genre.count(genre)
+  genre_count[genre] = @@genres.count(genre)
 end
 genre_count
 end
