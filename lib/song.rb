@@ -40,6 +40,8 @@ def slef.genre_count
   @@genre.uniq.each do |genre|
   genre_count[genre] = genre.size
 end
+genre_count
+end
 
 
 end
