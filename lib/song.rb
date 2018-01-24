@@ -27,8 +27,8 @@ def artist_count
 #how many songs each artist created
 end
 
-def genres
-
+def self.genres
+  @@genres.uniq
 end
 
 def genre_count
