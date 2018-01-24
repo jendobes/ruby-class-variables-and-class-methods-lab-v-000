@@ -34,7 +34,7 @@ def self.genres
   @@genres.uniq
 end
 
-def slef.genre_count
+def self.genre_count
   #how many songs in each genre
   genre_count = {}
   @@genre.uniq.each do |genre|
