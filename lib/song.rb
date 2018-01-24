@@ -37,7 +37,7 @@ end
 def self.genre_count
   #how many songs in each genre
   genre_count = {}
-  @@genre.uniq.each do |genre|
+  @@genres.uniq.each do |genre|
   genre_count[genre] = genre.size
 end
 genre_count
